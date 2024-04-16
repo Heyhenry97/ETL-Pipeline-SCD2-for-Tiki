@@ -1,0 +1,18 @@
+pydantic==1.10.7
+python-dotenv
+airflow-code-editor==7.2.1
+black ==23.3.0
+fs-s3fs==1.1.1
+fs-gcsfs==1.5.1
+gspread==5.8.0
+df2gspread==1.0.4
+psycopg2-binary==2.9.6
+pillow==9.5.0
+apache-airflow-providers-postgres==2.1.0
+apache-airflow-providers-google
+apache-airflow-providers-amazon
+openpyxl==3.1.2
+avro
+kafka-python
+google-cloud-storage==2.14.0
+simplejson==3.19.2

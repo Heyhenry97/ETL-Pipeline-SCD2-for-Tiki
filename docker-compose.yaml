@@ -1,0 +1,50 @@
+version: '3'
+x-common: &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./env_files:/opt/airflow/env_files
+    - ./airflow.cfg:/opt/airflow/airflow.cfg
+  network_mode: af_network
+  env_file:
+    - ./env_files/dev.env
+
+
+services:
+  db:
+    image: postgres:16
+    container_name: af_pg
+    environment:
+      POSTGRES_USER: af_user
+      POSTGRES_PASSWORD: af_pass
+      POSTGRES_DB: af_db
+    volumes:
+      - af-db-volume:/var/lib/postgresql/data
+    ports:
+      - "55432:5432"
+    network_mode: af_network
+
+
+  airflow-webserver:
+    <<: *airflow-common
+    depends_on:
+      - db
+    container_name: af_webserver
+    command: webserver  
+    ports:
+      - '8080:8080'
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: af_scheduler
+    depends_on:
+      - db
+    command: scheduler
+
+    
+
+volumes:
+  af-db-volume:
