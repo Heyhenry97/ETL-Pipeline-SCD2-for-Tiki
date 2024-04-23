@@ -1,0 +1,24 @@
+[2024-04-23T13:59:58.161+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_minio.download_file scheduled__2024-04-21T17:00:00+00:00 [queued]>
+[2024-04-23T13:59:58.165+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_minio.download_file scheduled__2024-04-21T17:00:00+00:00 [queued]>
+[2024-04-23T13:59:58.165+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-04-23T13:59:58.172+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): download_file> on 2024-04-21 17:00:00+00:00
+[2024-04-23T13:59:58.175+0000] {standard_task_runner.py:57} INFO - Started process 774 to run task
+[2024-04-23T13:59:58.177+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_minio', 'download_file', 'scheduled__2024-04-21T17:00:00+00:00', '--job-id', '32', '--raw', '--subdir', '/opt/airflow/dags/dags-example/test_minio.py', '--cfg-path', '/tmp/tmpzjr_t0hw']
+[2024-04-23T13:59:58.178+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask download_file
+[2024-04-23T13:59:58.213+0000] {task_command.py:415} INFO - Running <TaskInstance: test_minio.download_file scheduled__2024-04-21T17:00:00+00:00 [running]> on host 44f2c0439e04
+[2024-04-23T13:59:58.260+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_minio' AIRFLOW_CTX_TASK_ID='download_file' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T17:00:00+00:00'
+[2024-04-23T13:59:58.261+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dags-example/test_minio.py", line 17, in download_file
+    df = minio_handler.download_to_dataframe('tiki', 'raw_116532_1710396371.csv')
+TypeError: download_to_dataframe() missing 1 required positional argument: 'object_name'
+[2024-04-23T13:59:58.268+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=test_minio, task_id=download_file, execution_date=20240421T170000, start_date=20240423T135958, end_date=20240423T135958
+[2024-04-23T13:59:58.277+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 32 for task download_file (download_to_dataframe() missing 1 required positional argument: 'object_name'; 774)
+[2024-04-23T13:59:58.324+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-04-23T13:59:58.339+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

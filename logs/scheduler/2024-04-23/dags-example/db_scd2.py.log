@@ -1,0 +1,547 @@
+[2024-04-23T15:04:11.421+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:11.424+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:04:11.427+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:11.426+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:12.766+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:12.930+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:12.929+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:04:12.945+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:12.944+0000] {dag.py:3677} INFO - Setting next_dagrun for etl to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:04:12.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 1.546 seconds
+[2024-04-23T15:04:43.426+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:43.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:04:43.429+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:43.429+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:44.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:04:44.237+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:44.237+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:04:44.253+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:04:44.253+0000] {dag.py:3677} INFO - Setting next_dagrun for etl to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:04:44.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.852 seconds
+[2024-04-23T15:05:14.378+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:14.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:05:14.390+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:14.387+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:14.804+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:14.835+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:14.835+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:05:14.851+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:14.851+0000] {dag.py:3677} INFO - Setting next_dagrun for etl to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:05:14.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.500 seconds
+[2024-04-23T15:05:46.629+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:46.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:05:46.674+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:46.655+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:50.521+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:05:51.129+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:51.129+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:05:51.310+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:05:51.310+0000] {dag.py:3677} INFO - Setting next_dagrun for etl to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:05:51.414+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 4.846 seconds
+[2024-04-23T15:06:05.493+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:05.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:06:05.508+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:05.506+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:07.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:07.612+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.612+0000] {manager.py:501} INFO - Created Permission View: can edit on DAG:db_scd2
+[2024-04-23T15:06:07.620+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.620+0000] {manager.py:501} INFO - Created Permission View: can read on DAG:db_scd2
+[2024-04-23T15:06:07.624+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.624+0000] {manager.py:501} INFO - Created Permission View: can delete on DAG:db_scd2
+[2024-04-23T15:06:07.636+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.636+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:06:07.656+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.656+0000] {dag.py:2929} INFO - Creating ORM DAG for db_scd2
+[2024-04-23T15:06:07.679+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:07.678+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:06:07.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 2.415 seconds
+[2024-04-23T15:06:37.980+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:37.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:06:37.984+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:37.983+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:38.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:06:38.562+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:38.562+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:06:38.582+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:06:38.582+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:06:38.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.639 seconds
+[2024-04-23T15:07:08.800+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:08.801+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:07:08.802+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:08.802+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:09.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:09.071+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:09.070+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:07:09.082+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:09.082+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:07:09.092+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.296 seconds
+[2024-04-23T15:07:39.679+0000] {processor.py:157} INFO - Started process (PID=375) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:39.680+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:07:39.681+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:39.681+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:39.925+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:07:39.940+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:39.939+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:07:39.951+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:07:39.951+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:07:39.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.286 seconds
+[2024-04-23T15:08:10.335+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:10.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:08:10.336+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:10.336+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:10.584+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:10.598+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:10.598+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:08:10.609+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:10.609+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:08:10.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.287 seconds
+[2024-04-23T15:08:40.995+0000] {processor.py:157} INFO - Started process (PID=421) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:40.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:08:40.999+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:40.999+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:41.230+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:41.243+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:41.243+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:08:41.254+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:41.254+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:08:41.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.271 seconds
+[2024-04-23T15:08:56.210+0000] {processor.py:157} INFO - Started process (PID=432) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:56.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:08:56.212+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:56.212+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:56.458+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:08:56.476+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:56.476+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:08:56.488+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:08:56.488+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-21T17:00:00+00:00, run_after=2024-04-22T17:00:00+00:00
+[2024-04-23T15:08:56.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.291 seconds
+[2024-04-23T15:09:26.900+0000] {processor.py:157} INFO - Started process (PID=483) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:26.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:09:26.902+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:26.902+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:27.176+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:27.192+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:27.191+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:09:27.206+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:27.206+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:09:27.215+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.319 seconds
+[2024-04-23T15:09:57.558+0000] {processor.py:157} INFO - Started process (PID=506) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:57.559+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:09:57.561+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:57.560+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:57.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:09:57.824+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:57.823+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:09:57.836+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:09:57.836+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:09:57.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.293 seconds
+[2024-04-23T15:10:28.180+0000] {processor.py:157} INFO - Started process (PID=529) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:28.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:10:28.183+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:28.182+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:28.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:28.477+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:28.477+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:10:28.491+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:28.491+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:10:28.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.329 seconds
+[2024-04-23T15:10:58.840+0000] {processor.py:157} INFO - Started process (PID=552) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:58.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:10:58.843+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:58.842+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:59.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:10:59.135+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:59.134+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:10:59.148+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:10:59.148+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:10:59.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.321 seconds
+[2024-04-23T15:11:29.504+0000] {processor.py:157} INFO - Started process (PID=575) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:11:29.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:11:29.507+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:11:29.507+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:11:29.747+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:11:29.761+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:11:29.761+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:11:29.775+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:11:29.774+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:11:29.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.287 seconds
+[2024-04-23T15:12:00.128+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:00.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:12:00.131+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:00.130+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:00.382+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:00.396+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:00.395+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:12:00.407+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:00.407+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:12:00.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.293 seconds
+[2024-04-23T15:12:30.788+0000] {processor.py:157} INFO - Started process (PID=621) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:30.790+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:12:30.791+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:30.791+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:31.041+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:12:31.056+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:31.056+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:12:31.068+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:12:31.068+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:12:31.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.297 seconds
+[2024-04-23T15:13:01.397+0000] {processor.py:157} INFO - Started process (PID=644) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:01.398+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:13:01.399+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:01.399+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:01.631+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:01.645+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:01.645+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:13:01.657+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:01.657+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:13:01.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.273 seconds
+[2024-04-23T15:13:32.032+0000] {processor.py:157} INFO - Started process (PID=667) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:32.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:13:32.035+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:32.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:32.260+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:13:32.274+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:32.274+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:13:32.285+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:13:32.285+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:13:32.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.266 seconds
+[2024-04-23T15:14:02.647+0000] {processor.py:157} INFO - Started process (PID=690) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:02.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:14:02.648+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:02.648+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:02.931+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:02.950+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:02.950+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:14:02.963+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:02.963+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:14:02.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.331 seconds
+[2024-04-23T15:14:33.089+0000] {processor.py:157} INFO - Started process (PID=713) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:33.090+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:14:33.092+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:33.091+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:33.340+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:14:33.356+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:33.355+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:14:33.367+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:14:33.367+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:14:33.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.292 seconds
+[2024-04-23T15:15:03.720+0000] {processor.py:157} INFO - Started process (PID=736) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:03.721+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:15:03.722+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:03.722+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:04.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:04.052+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:04.051+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:15:04.066+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:04.066+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:15:04.081+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.363 seconds
+[2024-04-23T15:15:34.415+0000] {processor.py:157} INFO - Started process (PID=759) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:34.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:15:34.418+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:34.417+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:34.655+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:15:34.668+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:34.668+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:15:34.680+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:15:34.680+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:15:34.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.279 seconds
+[2024-04-23T15:16:05.036+0000] {processor.py:157} INFO - Started process (PID=782) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:05.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:16:05.040+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:05.040+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:05.268+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:05.282+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:05.281+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:16:05.293+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:05.293+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:16:05.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.270 seconds
+[2024-04-23T15:16:15.432+0000] {processor.py:157} INFO - Started process (PID=800) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:15.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:16:15.436+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:15.435+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:15.683+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:15.697+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:15.697+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:16:15.711+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:15.711+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:16:15.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.301 seconds
+[2024-04-23T15:16:46.041+0000] {processor.py:157} INFO - Started process (PID=823) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:46.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:16:46.043+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:46.043+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:46.299+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:16:46.314+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:46.313+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:16:46.327+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:16:46.326+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:16:46.336+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.298 seconds
+[2024-04-23T15:17:16.729+0000] {processor.py:157} INFO - Started process (PID=849) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:16.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:17:16.733+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:16.732+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:16.949+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:16.961+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:16.961+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:17:16.971+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:16.971+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:17:16.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.255 seconds
+[2024-04-23T15:17:46.358+0000] {processor.py:157} INFO - Started process (PID=872) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:46.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:17:46.361+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:46.360+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:46.591+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:46.588+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/dags-example/db_scd2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags-example/db_scd2.py", line 86, in <module>
+    greet_dag = dag_etl()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3798, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/dags-example/db_scd2.py", line 82, in dag_etl
+    connection.commit()
+NameError: name 'connection' is not defined
+[2024-04-23T15:17:46.592+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:46.602+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.248 seconds
+[2024-04-23T15:17:59.557+0000] {processor.py:157} INFO - Started process (PID=878) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:59.559+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:17:59.560+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:59.560+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:59.788+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:17:59.801+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:59.801+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:17:59.815+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:17:59.815+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:17:59.826+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.275 seconds
+[2024-04-23T15:18:30.133+0000] {processor.py:157} INFO - Started process (PID=904) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:18:30.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:18:30.136+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:18:30.135+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:18:30.376+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:18:30.389+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:18:30.389+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:18:30.403+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:18:30.403+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:18:30.412+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.282 seconds
+[2024-04-23T15:19:01.010+0000] {processor.py:157} INFO - Started process (PID=927) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:01.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:19:01.013+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:01.012+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:01.252+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:01.265+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:01.265+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:19:01.275+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:01.275+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:19:01.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.277 seconds
+[2024-04-23T15:19:31.707+0000] {processor.py:157} INFO - Started process (PID=950) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:31.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:19:31.709+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:31.708+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:31.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:19:31.971+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:31.971+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:19:31.985+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:19:31.985+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:19:32.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.298 seconds
+[2024-04-23T15:20:02.337+0000] {processor.py:157} INFO - Started process (PID=973) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:02.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:20:02.341+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:02.341+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:02.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:02.581+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:02.581+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:20:02.594+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:02.593+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:20:02.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.270 seconds
+[2024-04-23T15:20:32.960+0000] {processor.py:157} INFO - Started process (PID=996) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:32.961+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:20:32.963+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:32.962+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:33.182+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:20:33.195+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:33.195+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:20:33.206+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:20:33.206+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:20:33.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.258 seconds
+[2024-04-23T15:21:03.659+0000] {processor.py:157} INFO - Started process (PID=1019) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:03.660+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:21:03.661+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:03.660+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:03.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:03.901+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:03.901+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:21:03.912+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:03.912+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:21:03.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.265 seconds
+[2024-04-23T15:21:34.296+0000] {processor.py:157} INFO - Started process (PID=1042) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:34.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:21:34.299+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:34.298+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:34.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:34.552+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:34.551+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:21:34.562+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:34.562+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:21:34.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.278 seconds
+[2024-04-23T15:21:37.345+0000] {processor.py:157} INFO - Started process (PID=1048) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:37.346+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:21:37.348+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:37.347+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:37.595+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:37.609+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:37.609+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:21:37.619+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:37.619+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:21:37.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.289 seconds
+[2024-04-23T15:21:39.640+0000] {processor.py:157} INFO - Started process (PID=1054) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:39.642+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:21:39.644+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:39.644+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:39.890+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:39.904+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:39.904+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:21:39.916+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:39.916+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:21:39.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.293 seconds
+[2024-04-23T15:21:47.431+0000] {processor.py:157} INFO - Started process (PID=1077) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:47.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:21:47.434+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:47.433+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:47.732+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:21:47.747+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:47.747+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:21:47.760+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:21:47.760+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:21:47.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.346 seconds
+[2024-04-23T15:22:18.405+0000] {processor.py:157} INFO - Started process (PID=1103) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:18.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:22:18.408+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:18.408+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:18.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:18.654+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:18.653+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:22:18.667+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:18.667+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:22:18.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.279 seconds
+[2024-04-23T15:22:20.468+0000] {processor.py:157} INFO - Started process (PID=1109) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:20.470+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:22:20.471+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:20.471+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:20.697+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:20.709+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:20.709+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:22:20.720+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:20.720+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:22:20.729+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.265 seconds
+[2024-04-23T15:22:51.305+0000] {processor.py:157} INFO - Started process (PID=1135) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:51.306+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:22:51.307+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:51.307+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:51.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:22:51.555+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:51.555+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:22:51.567+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:22:51.567+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:22:51.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.274 seconds
+[2024-04-23T15:23:21.990+0000] {processor.py:157} INFO - Started process (PID=1158) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:21.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:23:21.992+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:21.992+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:22.223+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:22.238+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:22.238+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:23:22.250+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:22.250+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:23:22.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.273 seconds
+[2024-04-23T15:23:52.683+0000] {processor.py:157} INFO - Started process (PID=1181) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:52.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:23:52.686+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:52.686+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:52.934+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:23:52.950+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:52.950+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:23:52.961+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:23:52.961+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:23:52.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.291 seconds
+[2024-04-23T15:24:10.945+0000] {processor.py:157} INFO - Started process (PID=1187) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:10.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:24:10.947+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:10.947+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:11.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:11.181+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:11.180+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:24:11.192+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:11.192+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:24:11.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.262 seconds
+[2024-04-23T15:24:41.801+0000] {processor.py:157} INFO - Started process (PID=1210) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:41.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:24:41.804+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:41.803+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:42.035+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:24:42.047+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:42.047+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:24:42.058+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:24:42.058+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:24:42.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.270 seconds
+[2024-04-23T15:25:12.440+0000] {processor.py:157} INFO - Started process (PID=1233) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:12.442+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:25:12.443+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:12.443+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:12.645+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:12.658+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:12.658+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:25:12.668+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:12.668+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:25:12.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.242 seconds
+[2024-04-23T15:25:43.058+0000] {processor.py:157} INFO - Started process (PID=1256) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:43.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:25:43.060+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:43.060+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:43.291+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:43.303+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:43.303+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:25:43.315+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:43.315+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:25:43.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.268 seconds
+[2024-04-23T15:25:52.471+0000] {processor.py:157} INFO - Started process (PID=1279) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:52.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:25:52.473+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:52.472+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:52.705+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:25:52.718+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:52.718+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:25:52.728+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:25:52.728+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:25:52.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.271 seconds
+[2024-04-23T15:26:23.146+0000] {processor.py:157} INFO - Started process (PID=1305) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:23.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:26:23.150+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:23.149+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:23.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:23.393+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:23.393+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:26:23.403+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:23.403+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:26:23.412+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.271 seconds
+[2024-04-23T15:26:53.817+0000] {processor.py:157} INFO - Started process (PID=1328) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:53.819+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:26:53.820+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:53.820+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:54.049+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:54.061+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:54.061+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:26:54.072+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:54.072+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:26:54.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.267 seconds
+[2024-04-23T15:26:54.915+0000] {processor.py:157} INFO - Started process (PID=1334) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:54.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:26:54.918+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:54.918+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:55.148+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:26:55.162+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:55.162+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:26:55.173+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:26:55.173+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:26:55.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.272 seconds
+[2024-04-23T15:27:12.277+0000] {processor.py:157} INFO - Started process (PID=1340) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:12.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:27:12.281+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:12.281+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:12.518+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:12.534+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:12.534+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:27:12.547+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:12.547+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:27:12.557+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.285 seconds
+[2024-04-23T15:27:43.238+0000] {processor.py:157} INFO - Started process (PID=1366) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:43.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:27:43.240+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:43.240+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:43.483+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:27:43.513+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:43.513+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:27:43.528+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:27:43.528+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:27:43.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.302 seconds
+[2024-04-23T15:28:14.243+0000] {processor.py:157} INFO - Started process (PID=1389) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:14.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:28:14.245+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:14.245+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:14.470+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:14.483+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:14.483+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:28:14.493+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:14.493+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:28:14.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.262 seconds
+[2024-04-23T15:28:44.643+0000] {processor.py:157} INFO - Started process (PID=1412) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:44.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:28:44.646+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:44.645+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:44.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:28:44.891+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:44.891+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:28:44.904+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:28:44.903+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:28:44.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.274 seconds
+[2024-04-23T15:29:15.271+0000] {processor.py:157} INFO - Started process (PID=1435) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:15.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:29:15.274+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:15.274+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:15.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:15.531+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:15.531+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:29:15.543+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:15.543+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:29:15.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.284 seconds
+[2024-04-23T15:29:45.861+0000] {processor.py:157} INFO - Started process (PID=1458) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:45.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:29:45.863+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:45.863+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:46.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:29:46.131+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:46.131+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:29:46.145+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:29:46.145+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:29:46.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.297 seconds
+[2024-04-23T15:30:16.585+0000] {processor.py:157} INFO - Started process (PID=1481) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:16.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:30:16.587+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:16.587+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:16.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:16.839+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:16.839+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:30:16.851+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:16.851+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:30:16.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.280 seconds
+[2024-04-23T15:30:47.239+0000] {processor.py:157} INFO - Started process (PID=1504) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:47.241+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:30:47.243+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:47.242+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:47.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:30:47.473+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:47.473+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:30:47.483+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:30:47.483+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:30:47.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.257 seconds
+[2024-04-23T15:31:17.654+0000] {processor.py:157} INFO - Started process (PID=1527) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:17.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:31:17.657+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:17.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:17.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:17.939+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:17.939+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:31:17.952+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:17.952+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:31:17.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.314 seconds
+[2024-04-23T15:31:48.267+0000] {processor.py:157} INFO - Started process (PID=1550) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:48.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:31:48.270+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:48.269+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:48.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:31:48.502+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:48.501+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:31:48.512+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:31:48.512+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:31:48.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.257 seconds
+[2024-04-23T15:32:19.035+0000] {processor.py:157} INFO - Started process (PID=1573) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:19.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:32:19.037+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:19.037+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:19.254+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:19.268+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:19.267+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:32:19.278+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:19.278+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:32:19.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.257 seconds
+[2024-04-23T15:32:50.074+0000] {processor.py:157} INFO - Started process (PID=1596) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:50.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:32:50.078+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:50.078+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:50.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:32:50.300+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:50.300+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:32:50.310+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:32:50.310+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:32:50.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.248 seconds
+[2024-04-23T15:33:20.888+0000] {processor.py:157} INFO - Started process (PID=1619) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:20.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:33:20.891+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:20.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:21.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:21.111+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:21.110+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:33:21.121+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:21.121+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:33:21.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.245 seconds
+[2024-04-23T15:33:51.636+0000] {processor.py:157} INFO - Started process (PID=1642) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:51.637+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:33:51.639+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:51.638+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:51.848+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:33:51.860+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:51.859+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:33:51.870+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:33:51.870+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:33:51.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.247 seconds
+[2024-04-23T15:34:22.457+0000] {processor.py:157} INFO - Started process (PID=1665) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:22.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:34:22.460+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:22.459+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:22.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:22.680+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:22.680+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:34:22.690+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:22.690+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:34:22.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:34:53.202+0000] {processor.py:157} INFO - Started process (PID=1688) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:53.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:34:53.205+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:53.204+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:53.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:34:53.426+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:53.426+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:34:53.436+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:34:53.436+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:34:53.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:35:23.823+0000] {processor.py:157} INFO - Started process (PID=1711) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:23.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:35:23.825+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:23.825+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:24.027+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:24.039+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:24.039+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:35:24.049+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:24.049+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:35:24.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.237 seconds
+[2024-04-23T15:35:54.565+0000] {processor.py:157} INFO - Started process (PID=1734) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:54.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:35:54.567+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:54.567+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:54.776+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:35:54.788+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:54.788+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:35:54.798+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:35:54.798+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:35:54.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:36:25.345+0000] {processor.py:157} INFO - Started process (PID=1757) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:25.346+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:36:25.347+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:25.347+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:25.556+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:25.569+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:25.569+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:36:25.579+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:25.579+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:36:25.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:36:56.028+0000] {processor.py:157} INFO - Started process (PID=1780) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:56.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:36:56.032+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:56.031+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:56.241+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:36:56.254+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:56.253+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:36:56.263+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:36:56.263+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:36:56.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:37:26.857+0000] {processor.py:157} INFO - Started process (PID=1803) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:26.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:37:26.859+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:26.859+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:27.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:27.079+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:27.079+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:37:27.090+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:27.090+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:37:27.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.246 seconds
+[2024-04-23T15:37:57.442+0000] {processor.py:157} INFO - Started process (PID=1826) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:57.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:37:57.444+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:57.443+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:57.702+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:37:57.720+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:57.720+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:37:57.734+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:37:57.734+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:37:57.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.307 seconds
+[2024-04-23T15:39:31.830+0000] {processor.py:157} INFO - Started process (PID=1849) to work on /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:39:31.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dags-example/db_scd2.py for tasks to queue
+[2024-04-23T15:39:31.833+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:39:31.832+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:39:32.054+0000] {processor.py:839} INFO - DAG(s) dict_keys(['db_scd2']) retrieved from /opt/airflow/dags/dags-example/db_scd2.py
+[2024-04-23T15:39:32.071+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:39:32.070+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-23T15:39:32.083+0000] {logging_mixin.py:151} INFO - [2024-04-23T15:39:32.083+0000] {dag.py:3677} INFO - Setting next_dagrun for db_scd2 to 2024-04-22T17:00:00+00:00, run_after=2024-04-23T17:00:00+00:00
+[2024-04-23T15:39:32.092+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dags-example/db_scd2.py took 0.264 seconds

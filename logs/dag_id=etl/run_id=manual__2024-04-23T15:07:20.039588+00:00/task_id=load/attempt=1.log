@@ -1,0 +1,60 @@
+[2024-04-23T15:07:23.834+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl.load manual__2024-04-23T15:07:20.039588+00:00 [queued]>
+[2024-04-23T15:07:23.838+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl.load manual__2024-04-23T15:07:20.039588+00:00 [queued]>
+[2024-04-23T15:07:23.838+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-04-23T15:07:23.843+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2024-04-23 15:07:20.039588+00:00
+[2024-04-23T15:07:23.848+0000] {standard_task_runner.py:57} INFO - Started process 350 to run task
+[2024-04-23T15:07:23.850+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl', 'load', 'manual__2024-04-23T15:07:20.039588+00:00', '--job-id', '48', '--raw', '--subdir', '/opt/airflow/dags/dags-example/etl.py', '--cfg-path', '/tmp/tmp9sfspgua']
+[2024-04-23T15:07:23.853+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask load
+[2024-04-23T15:07:23.880+0000] {task_command.py:415} INFO - Running <TaskInstance: etl.load manual__2024-04-23T15:07:20.039588+00:00 [running]> on host 455dffaa18e2
+[2024-04-23T15:07:23.928+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T15:07:20.039588+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-23T15:07:20.039588+00:00'
+[2024-04-23T15:07:23.928+0000] {logging_mixin.py:151} INFO - load
+[2024-04-23T15:07:24.155+0000] {logging_mixin.py:151} INFO -      tiki_pid  ... ingestion_dt_unix
+43  200629270  ...        1713884841
+44  195357772  ...        1713884841
+45  195109412  ...        1713884841
+46  193570411  ...        1713884841
+47  186118365  ...        1713884841
+48  147903537  ...        1713884841
+49  143185998  ...        1713884841
+50  138934612  ...        1713884841
+51  138481685  ...        1713884841
+52  110255220  ...        1713884841
+53  117836946  ...        1713884841
+54  117170051  ...        1713884841
+55  116410119  ...        1713884841
+56  100989176  ...        1713884841
+57  248758024  ...        1713884841
+58   95218547  ...        1713884841
+59   75615273  ...        1713884841
+60   72331113  ...        1713884841
+61   68370674  ...        1713884841
+62   66512832  ...        1713884841
+63   59479717  ...        1713884841
+64   58342212  ...        1713884841
+65  136666870  ...        1713884841
+66   53507455  ...        1713884841
+67   53506478  ...        1713884841
+68   55461727  ...        1713884841
+69   53831604  ...        1713884841
+70  135079395  ...        1713884841
+71   50685547  ...        1713884841
+72   48962414  ...        1713884841
+73   11616161  ...        1713884841
+74   21973737  ...        1713884841
+75   10920495  ...        1713884841
+76    8959289  ...        1713884841
+77   10278713  ...        1713884841
+78     632680  ...        1713884841
+79   10071383  ...        1713884841
+80   73124602  ...        1713884841
+81    1453915  ...        1713884841
+82    1672157  ...        1713884841
+83     897016  ...        1713884841
+84     579962  ...        1713884841
+85     414764  ...        1713884841
+
+[43 rows x 5 columns]
+[2024-04-23T15:07:24.156+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-04-23T15:07:24.162+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl, task_id=load, execution_date=20240423T150720, start_date=20240423T150723, end_date=20240423T150724
+[2024-04-23T15:07:24.202+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-04-23T15:07:24.215+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
