@@ -1,0 +1,8 @@
+/logs/
+*.log
+*.out
+*.pid
+*.err
+venv_airflow/
+__pycache__
+dbfiles
