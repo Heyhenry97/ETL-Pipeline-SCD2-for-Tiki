@@ -9,7 +9,7 @@ import time
      start_date=datetime(2021, 10, 26),
      catchup=False,
      schedule_interval='@daily')
-def dag_setting():
+def this_dag():
     @task()
     def get_info():
         print(module_1.check())
@@ -21,5 +21,5 @@ def dag_setting():
 
     get_info() >>get_info2()
 
-greet_dag = dag_setting()
+this_dag = this_dag()
 

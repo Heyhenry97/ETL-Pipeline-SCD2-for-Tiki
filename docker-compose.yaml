@@ -44,7 +44,35 @@ services:
       - db
     command: scheduler
 
-    
+  minio:
+    image: quay.io/minio/minio
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: 12345678
+    volumes:
+      - af-minio-volume:/data
+    command: server /data --console-address ":9001"
+    network_mode: af_network
 
+
+  pg-tiki:  # For storing TIKI's data
+    image: postgres:16
+    container_name: pg-tiki
+    environment:
+      POSTGRES_DB: dw_tiki
+      POSTGRES_USER: my_user
+      POSTGRES_PASSWORD: my_password
+    ports:
+      - "45432:5432"
+    volumes:
+      - af-pg-tiki-volume:/var/lib/postgresql/data
+    network_mode: af_network
+    
 volumes:
   af-db-volume:
+  af-minio-volume:
+  af-pg-tiki-volume:
