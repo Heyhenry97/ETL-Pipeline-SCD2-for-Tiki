@@ -1,8 +1,6 @@
 from airflow.decorators import dag, task
 from datetime import datetime
-from helper import module_1 #https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/modules_management.html#built-in-pythonpath-entries-in-airflow
 
-import os
 import time
 
 @dag(dag_id='dag_setting_v2',

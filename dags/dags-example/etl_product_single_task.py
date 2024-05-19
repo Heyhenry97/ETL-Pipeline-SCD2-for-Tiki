@@ -1,7 +1,8 @@
 from airflow.decorators import dag, task
 from datetime import datetime
 
-from helper.extract import Extract
+# #https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/modules_management.html#built-in-pythonpath-entries-in-airflow
+from helper.extract import Extract 
 from helper.transform import Transform
 from helper.load import Load
 from helper.etl_process import ETLProcess
