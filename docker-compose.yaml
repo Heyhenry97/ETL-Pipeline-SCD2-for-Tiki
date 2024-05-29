@@ -44,6 +44,15 @@ services:
       - db
     command: scheduler
 
+
+  airflow-init:
+    <<: *airflow-common
+    depends_on:
+      - db
+    container_name: af_init
+    command: db migrate  
+
+
   minio:
     image: quay.io/minio/minio
     container_name: minio
