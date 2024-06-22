@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 import sys
 import time
-from helper.config import tiki_pid_list
+from helper.config import tiki_pid_list_staging
 
 module_path = os.path.abspath(os.path.join(".."))
 if module_path not in sys.path:
@@ -88,7 +88,6 @@ class Extract:
         pd_df["valid_to"] = None
         pd_df["is_active"] = True
         pd_df["quantity_sold_value"] = pd_df["quantity_sold_value"] + 4
-        pd_df["tiki_epoch"] = pd_df["tiki_pid"].astype(str) + '_' + pd_df['ingestion_dt_unix'].astype(str)
         # pd_df.rename(columns={"master_product_sku":"product_id"},inplace=True)
         return pd_df
 
@@ -97,8 +96,10 @@ class Extract:
 
     def concatenate_and_save(self):
         concatenated_df = pd.concat(self.all_data, ignore_index=True)
-        # concatenated_df["incremental_product"] = range(1, len(concatenated_df) + 1)
-        concatenated_df= concatenated_df[concatenated_df['tiki_pid'].isin(tiki_pid_list)==True]
+        concatenated_df["incremental_product"] = range(1, len(concatenated_df) + 1)
+        concatenated_df= concatenated_df[concatenated_df['tiki_pid'].isin(tiki_pid_list_staging)==True]
+        concatenated_df.loc[concatenated_df["tiki_pid"] == 74021317, 'primary_category_name'] = "Kinh Dị"
+        concatenated_df.loc[concatenated_df["tiki_pid"] == 188940817, 'primary_category_name'] = "Trinh Thám"
         timestamp = datetime.now()
         unix_timestamp = int(datetime.timestamp(timestamp))
         csv_name = f"{unix_timestamp}.csv"
