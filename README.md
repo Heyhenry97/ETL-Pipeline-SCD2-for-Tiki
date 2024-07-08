@@ -2,5 +2,5 @@
 Pipeline architecture
 
 
-![plot](./parallels/Documents/Project/Pipeline_Architech.jpg)
+![Pipeline Architecture](./parallels/Documents/Project/Pipeline_Architech.jpg)
 
