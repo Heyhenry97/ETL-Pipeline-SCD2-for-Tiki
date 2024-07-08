@@ -1,6 +1,6 @@
 
-Pipeline architecture
+# Pipeline Architecture
 
+![Pipeline Architecture](./images/Pipeline_Architech.jpg)
 
-![Pipeline Architecture](./parallels/Documents/Project/Pipeline_Architech.jpg)
 
